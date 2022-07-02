@@ -1,0 +1,22 @@
+"### My VimRC ###
+
+"# Variable
+let mapleader=","
+
+"# Settings
+set term=xterm
+set nocompatible
+set textwidth=0
+set shiftwidth=4
+set tabstop=4
+set mouse=a
+set number
+set relativenumber
+set cursorline
+set cursorcolumn
+
+"# Unset
+set nowrap
+set noswapfile
+set nobackup
+set noundofile
