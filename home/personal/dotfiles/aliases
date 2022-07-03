@@ -12,6 +12,11 @@ alias reload="source ~/.bashrc"
 alias ls="ls -lha"
 alias dir="dir --all"
 
+### Audio
+alias volup="amixer sset 'Master' playback 1+"
+alias voldown="amixer sset 'Master' playback -1"
+alias voltoggle="amixer sset 'Master' toggle"
+
 ### Package Manager
 alias pacinstall="sudo emerge -av" # Install packages
 alias pacuninstall="sudo emerge --ask --deselect"  # Uninstall packages
